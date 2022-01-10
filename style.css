@@ -1,0 +1,74 @@
+body {
+    font-family: "Acumin Pro", sans-serif;
+    background-color: #212121;
+    color: white;
+    margin: 40px;
+}
+
+.ui-element {
+    background-color: #212121;
+    margin-bottom: 20px;
+}
+
+#container {
+    position: absolute; 
+    left: 600px;
+    top: 200px;
+    width: 450px;
+    height: 650px;
+}
+
+#mouseover-label {
+    position: absolute;
+    top: 900px;
+    height: 50px;
+    width: 600px;
+}
+
+.blue-bundesland {
+    color:#73C7F0;
+}
+
+.bar {
+    background-color: white;
+    position: absolute;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.circleStraßen {
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(21, 255, 0);
+}
+
+
+
+.no-highlight {
+    background-color: rgb(255, 255, 255);
+}
+
+.highlight {
+    background-color: #73C7F0;
+    ;
+}
+
+.buttons {
+    display: contents;
+    position: absolute;
+    margin-left: 60px;
+    background-color: #212121;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.buttons:hover {
+    color: #73C7F0;
+}

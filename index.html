@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang= "de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="click-label" class="ui-element"></div>
+    <h1>Straßenverkehrsunfälle</h1>
+    <div class="buttondiv">
+        <button class="buttons" onclick="Where()">Wo &nbsp;&nbsp;&nbsp;</button>
+        <button class="buttons" onclick="All()">Insgesamt &nbsp;&nbsp;&nbsp;</button>
+        <button class="buttons" onclick="Years()">Jahre &nbsp;&nbsp;&nbsp;</button> 
+      </div>
+    
+    <div id="container" class="ui-element"></div>
+    <div id="mouseover-label" class="ui-element"></div>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="lib/gmynd.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
